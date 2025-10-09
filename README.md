@@ -1,15 +1,4 @@
 # Muti-Agent Finacial Model
-<p>Code base of 
-    <span style="color:#2E8B57;">M</span>ulti- 
-    <span style="color:#1E90FF;">A</span>gent 
-    <span style="color:#8B0000;">A</span>dversarial
-    <span style="color:#FF8C00;">T</span>ime 
-    <span style="color:#FFD700;">S</span>eries
-    <span style="color:#800080;">F</span>orecasting
-    (MAA-TSF)
-</p>
-
----
 
 ## Overall paradigm
 ## ![MAA-TSF.svg](MAA-TSF.svg) Brief Intro
