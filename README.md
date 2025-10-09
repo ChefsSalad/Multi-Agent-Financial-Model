@@ -1,4 +1,4 @@
-# MAA
+# Muti-Agent Finacial Model
 <p>Code base of 
     <span style="color:#2E8B57;">M</span>ulti- 
     <span style="color:#1E90FF;">A</span>gent 
