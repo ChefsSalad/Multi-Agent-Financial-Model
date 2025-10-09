@@ -1,5 +1,3 @@
-# Muti-Agent Finacial Model
-
 ## Overall paradigm
 ## ![MAA-TSF.svg](MAA-TSF.svg) Brief Intro
 
