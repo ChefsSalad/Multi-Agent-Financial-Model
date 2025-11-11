@@ -1,7 +1,29 @@
 ## Overall paradigm
-## ![MAA-TSF.svg](MAA-TSF.svg) Brief Intro
+## ![MAA-TSF](assets/MAA-TSF.svg)Brief Intro
 
 A multi-period group crossover and multi-factor pheromone transmission mechanism, grounded in the MAA framework, empowers individual agents to selectively attend to salient local signals, thereby enhancing their representational capacity, while simultaneously enabling adaptive and efficient collaborative modeling across agents.
+
+#### **📊 Experimental Results**
+
+#### **✅ Quantitative Investment Backtesting**
+
+The framework's specialized, adaptive design translates into strong empirical performance. Backtesting across 12 different commodity futures shows that MAA-TSF consistently outperforms other baseline models in generating cumulative returns, demonstrating its practical value in financial markets.
+
+
+![MAA-TSF](assets/return.png)
+#### **🎯 Model Performance Comparison**
+
+Further analysis shows the superior performance of our multi-agent framework compared to various baseline models and its efficacy in dynamic strategy allocation.
+
+![MAA-TSF](assets/performance.png)
+
+---
+
+#### **📈 Model-Driven Trading Decisions**
+
+The framework provides a complete, interpretable decision-making process with clear buy and sell signals. The visualization below illustrates the model's actions, the resulting equity curve, and the net profit generated during a specific trading period.
+
+![MAA-TSF](assets/backtest.jpg)
 
 ### A class inherit structure:
 
@@ -14,8 +36,8 @@ MAAbase
 ```
 
 ### Initialize models: 
-- N generators, e.g. [GRU, LSTM, Transformer]  # 3 generator models
-- N discriminators, e.g. [CNND1, CNND2, CNND3]  # 3 discriminator models
+- N generators, e.g. [GRU, LSTM, Transformer]  
+- N discriminators, e.g. [CNND1, CNND2, CNND3] 
 - Generators use past window size to predict next 1 (to N maybe will realize in the future version) timestamp.
 - Discriminators use past window size concatting predict label to discriminate and adversarial train
 
